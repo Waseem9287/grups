@@ -4,10 +4,14 @@ body{
 
 input{
     text-align: center;
+    outline: none;
+    font-weight: 100;
+    font-style: italic;
 }
 
 #character-sheet{
     font-family: "Times New Roman", Arial;
+    padding: 25px;
     background: #ffffff;
 }
 
@@ -55,11 +59,11 @@ input{
 }
 
 .r-header-form #point_total {
-    width: 66%;
+    width: 65%;
 }
 
 .r-header-form #character_growth {
-    width: 83%;
+    width: 82%;
 }
 
 .r-header-form #character_weight {
@@ -67,7 +71,7 @@ input{
 }
 
 .r-header-form #size_modifier {
-    width: 59%;
+    width: 58%;
 }
 
 .r-header-form #character_age {
@@ -75,15 +79,16 @@ input{
 }
 
 .r-header-form #unspent_pts {
-    width: 63%;
+    width: 62%;
 }
 
 .r-header-form #character-appearance {
-    width: 91%;
+    width: 90%;
 }
 
 .r-stats-abb {
     display: inline-block;
+    width: 1.8em;
 }
 
 .r-character-stats {
@@ -92,20 +97,151 @@ input{
 
 .r-stats-input {
     width: 28%;
+    font-style: normal;
 }
 
 .r-stats-points input, .r-stats-change input {
     border: none;
-    width: 20%;
+    width: 17%;
     font-size: 0.8em;
 }
 
 .r-stats-current {
-    font-size: 0.3em;
+    font-size: 0.29em;
     position: absolute;
 }
 
 .r-stats-change input {
     width: 60%;
     font-size: 0.7em;
+}
+
+.r-character-attr-1 div {
+    padding: 0;
+}
+
+.r-line {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+}
+
+#basic_lift {
+    width: 67%;
+}
+
+#damage_thr {
+    width: 46%;
+}
+
+#sw {
+    width: 75%;
+}
+
+#basic_speed, #basic_move{
+    width: 45%;
+}
+
+.r-stats-character-attr input {
+    width: 10%;
+    font-size: 0.7em;
+    border: none;
+}
+
+.r-character-attr-2 {
+    border: 2px solid;
+    padding: 0;
+}
+
+.r-character-attr-2>.r-tittle {
+    font-weight: 900;
+    font-size: 1.15em;
+}
+
+.r-character-attr-input {
+    width: 20%;
+}
+
+.r-character-attr-label {
+    width: 60%;
+    display: inline-block;
+}
+
+.r-character-perks {
+    padding: 10px 0;
+    border: 2px solid;
+    margin-top: 1%;
+}
+
+.r-character-perks>.r-tittle {
+    text-align: center;
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.r-perk-label {
+    width: 100%;
+}
+
+.r-perk-input {
+    width: 90%;
+    text-align: left;
+}
+
+.r-perk-point input {
+    width: 6%;
+}
+
+.r-cultural {
+    margin-top: 2%;
+}
+
+.r-cultural-input-tl {
+    width: 80%;
+}
+
+.r-cultural-input {
+    width: 88%;
+}
+
+.r-resist {
+    margin-top: 2%;
+    border: 2px solid;
+    padding: 0;
+}
+
+.r-resist-tittle {
+    border: none;
+    font-size: 2em;
+    text-align: center;
+}
+
+.r-resist-input {
+    border: none;
+    font-size: 6.65em;
+    width: 100%;
+}
+
+.r-parry {
+    padding: 0;
+}
+
+#appearance {
+    width: 76%;
+}
+
+#status {
+    width: 87%;
+}
+
+#reputation {
+    width: 76%;
+}
+
+.r-input-rep {
+    width: 99%;
+}
+
+.r-parry-first {
+    margin-bottom: 7px;
 }
